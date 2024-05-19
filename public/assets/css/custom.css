@@ -1,0 +1,68 @@
+/* Make Select2 boxes heights: */
+.select2-selection__rendered {
+    line-height: 40px !important;
+}
+
+.select2-selection {
+    min-height: 44px !important;
+}
+
+/* .select2-container{
+width:100% !important;
+} */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 44px;
+}
+
+.wh-150p{
+    width: 150px;
+    height: 150px;
+    object-fit: cover
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: auto;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+
+.ratting ul {
+    list-style: none;
+}
+
+.track { display: -webkit-inline-box; display: -moz-inline-box; overflow-x: scroll; }
+.track .iq-card-header {border-radius: 15px 15px 0 0;}
+.track .card-body {border-radius: 0 0 15px 15px;}
+
+.shadow-none { box-shadow: none !important; }
+.bg-transparent { background-color: transparent !important; }
+
+.pro-bg-card { background-color: #fff; }
+.pro-task-bg-card { background-color: #e9edf4; }
+
+.custom-switch.custom-switch-color input:checked.bg-success~label::before {
+    background-color: #38c172!important;
+    border-color: #38c172!important;
+}
+
+/* Ecommerce */
+
+.product-action > div {
+    display: inline-block;
+}
+
+.description-tabs {
+    margin-top: 100px;
+}
+
+.iq-checkout-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+}
